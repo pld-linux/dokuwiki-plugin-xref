@@ -18,11 +18,11 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		plugindir	%{dokudir}/lib/plugins/%{plugin}
 
 %description
-This plugin makes linking to a PHPXref generated documentation easy. You can
-link to functions, constants, variables, classes tables and filenames. The
-plugin will figure out what you meant automatically. The XRef documentation
-needs to be available on the same server as the DokuWiki install running this
-plugin. 
+This plugin makes linking to a PHPXref generated documentation easy.
+You can link to functions, constants, variables, classes tables and
+filenames. The plugin will figure out what you meant automatically.
+The XRef documentation needs to be available on the same server as the
+DokuWiki install running this plugin.
 
 %prep
 %setup -q -n %{plugin}
