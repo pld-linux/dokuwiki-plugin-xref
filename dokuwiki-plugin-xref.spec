@@ -11,6 +11,7 @@ Source0:	http://dev.splitbrain.org/download/snapshots/xref-plugin-latest.tgz
 Source1:	dokuwiki-find-lang.sh
 URL:		http://www.dokuwiki.org/plugin:xref
 Requires:	dokuwiki >= 20080505
+Requires:	phpxref >= 0.7-1
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
